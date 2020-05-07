@@ -7,3 +7,9 @@
 :set tabstop=4
 :set shiftwidth=4
 :set expandtab
+
+call plug#begin("~/.vim/plugins")
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
