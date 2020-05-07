@@ -112,4 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PATH=/home/pi/.local/bin:$PATH
 source /home/pi/py/bin/activate
